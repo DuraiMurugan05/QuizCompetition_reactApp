@@ -1,0 +1,153 @@
+
+
+.App {
+  background-color: lightgray;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:20pt;
+  width:100%;
+  min-width: 700px;
+  min-height: 500px;
+  overflow: hidden;
+  margin: auto;
+  padding-bottom: 150px;
+}
+
+
+.App-header {
+  color: gray;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.App-title {
+  font-size: 1.5em;
+
+}
+
+.question {
+  font-size: 18pt;
+text-align: center;
+    margin-left: -300px;
+    margin-right:-200px;
+    margin-bottom: 30px;
+}
+
+
+.question-container {
+    background-color: whitesmoke;
+
+    width:20%;
+    text-align: center;
+    margin: 5px auto;
+    padding: 6px;
+    border-radius: 60px;
+    box-shadow: 1px 1px 1px 0 #888888;
+    text-align:center;
+}
+
+.quiz-choice {
+  font-family: 'Lato';
+  width: 40px;
+    height: 40px;
+
+  padding: 1em ;
+  margin: 1em auto;
+  background: #FFD39B;
+  border:none;
+
+  border-radius: 10px;
+  transition: all 1s ease;
+  -webkit-box-shadow: 2px 2px 24px 0px rgba(0, 0, 0, 5);
+  -moz-box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 24px 0px rgba(0, 0, 0, 0.75);
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
+  outline: none;
+    align-items: center;
+}
+
+.quiz-choice:nth-of-type(1) {
+  margin-top: 1em;
+    width: 85%;
+}
+.quiz-choice:nth-of-type(2) {
+    margin-top: 1em;
+    width: 85%;
+}
+.quiz-choice:nth-of-type(3) {
+    margin-top: 1em;
+    width: 85%;
+}
+.question-container button.back-btn {
+  background: whitesmoke;
+
+  color: skyblue;
+  font-size: 24pt;
+  border: none;
+  padding: 0;
+  width:10px;
+    height:10px;
+  box-shadow: none;
+  float: left;
+}
+
+.question-panel {
+    width:170px;
+    height:310px;
+    margin-left: 15%;
+    margin-right: 0%;
+    padding: 1em 15em 0.5em ;
+    align-content: left;
+    background: white;
+    box-shadow: 0px 1px 6px 0px #a52a2a;
+
+}
+
+.final-score {
+  background-color: whitesmoke;
+  width:30%;
+  text-align: center;
+  margin: 20px auto;
+  padding: 60px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px 0 #888888;
+}
+
+.back-btn {
+  padding: 1.0em 4em;
+  border-radius: 1em;
+  color: cornsilk;
+  position: absolute;
+  top: 180px;
+  left:930px;
+  outline: none;
+  background: #02CCBA;
+  border: none;
+  transition: all 2s ease;
+}
+
+.back-btn:hover {
+  transform: translateY(-2px);
+  -webkit-box-shadow: 0px 1px 6px 0px #a52a2a;
+  -moz-box-shadow: 0px 1px 6px 0px #a52a2a;
+  box-shadow: 0px 1px 6px 0px #a52a2a;
+}
+
+.App-footer {
+  color: grey;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding-top: -200px;
+  padding-bottom: 20px;
+}
+
+.hd
+{
+    font-family:"AR CENA";
+    font-size: 60px;
+    color:darkblue;
+}
